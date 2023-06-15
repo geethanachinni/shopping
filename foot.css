@@ -1,0 +1,480 @@
+.body{
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-autumn-new-clothing-poster-womens-poster-hand-painted-image_14075.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+  }
+a{
+    text-decoration: none;
+}
+.go{
+    margin-left: 80%;
+   }
+   .item {
+    display: grid;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.product img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.product:hover{
+    transform: scale(1.1);
+}
+
+
+/* .product h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+} */
+.product:hover .q{
+    position: absolute;
+  bottom: 15px;
+ margin-left: -0%;
+   display: block;
+ background-color: wheat;
+ width: 200px;
+ height: -12%;
+}
+.q{
+    display: none;
+}
+.box{
+    
+    color: black;
+    border-radius:100px 100px 100px 100px ;
+    background-color: yellow;
+    margin-left: 30%;
+} 
+.bii{
+    color: black;
+    border-radius:100px 100px 100px 100px ;
+    background-color: yellow;
+    margin-left: 50%;
+    margin-bottom:70px ;
+
+}
+.ye{
+    color: black;
+    border-radius:100px 100px 100px 100px ;
+    background-color: yellow;
+    margin-bottom:70px ;
+}
+.i{
+    background-color: gainsboro;
+    border-radius: 20% 20% 20% 20% 20%;
+    width: 50%;
+    margin-left: 7%;
+}
+
+
+/* .item{
+    display: flex;
+    justify-content: center;
+    
+ }  */
+/*.item1,.item2,.item3{
+    flex-basis: 200px;
+    text-align: center;
+} 
+.item1 img{
+    height: 300px;
+    width: 200px;
+    padding: 50px;
+}
+.img1{
+    position:relative;
+   
+    
+}
+.img1:hover .vertical-line7{
+    margin-top: -118%;
+    margin-left: 84%;
+    width: 2px; 
+    height: 299px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+}
+.vertical-line7{
+    display: none;
+}
+ .img1:hover .vertical-line8{
+    margin-top: -100%;
+    margin-left: 14%;
+    width: 2px; 
+    height: 300px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px  black;
+    display: block;
+}
+.vertical-line8{
+    display: none;
+}
+ .img1:hover .horizontal-line7{
+    margin-top: -102%;
+    margin-left: 14%;
+    width: 212px; 
+    height: 2px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+  }
+.horizontal-line7{
+    display: none;
+}
+ .img1:hover  .horizontal-line8{
+    margin-top: 102%;
+    margin-left: 14%;
+    width: 210px; 
+    height: 2px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+  }   
+  .horizontal-line8{
+    display: none;
+  }   
+.img1:hover{
+    transform: scale(1.1);
+    
+}
+.img1:hover .q{
+   
+    position: absolute;
+    bottom: -50px;
+    margin-left: 14%;
+    display: block;
+    background-color: wheat;
+    width: 211px;
+    height: -12%;
+
+    
+}
+
+.q{
+    
+    display: none;
+}
+.item2 img{
+    
+    height: 300px;
+    width: 190px;
+    padding: 50px;
+}
+.img2{
+    position: relative;
+}
+.img2:hover .vertical-line9{
+    margin-top: -122%;
+    margin-left: 84%;
+    width: 2px; 
+    height: 297px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+}
+.vertical-line9{
+    display: none;
+}
+  .img2:hover .vertical-line10{
+    margin-top: -103%;
+    margin-left: 15%;
+    width: 2px; 
+    height: 300px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px  black;
+    display: block;
+}
+.vertical-line10{
+    display: none;
+}
+  .img2:hover .horizontal-line9{
+    margin-top: -105%;
+    margin-left: 15%;
+    width: 202px; 
+    height: 2px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+  }
+.horizontal-line9{
+    display: none;
+}
+  .img2:hover  .horizontal-line10{
+    margin-top: 105%;
+    margin-left: 15%;
+    width: 202px; 
+    height: 2px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+  }   
+  .horizontal-line10{
+    display: none;
+  } 
+.img2:hover{
+    transform: scale(1.1);
+    
+}
+.img2:hover .r{
+    position: absolute;
+    bottom: -50px;
+    margin-left: 14%;
+    display: block;
+    background-color: wheat;
+    width: 211px;
+    height: -12%;
+}
+.r{
+    display: none;
+}
+.item3 img{
+    
+    height: 300px;
+    width: 250px;
+    padding: 50px;
+} 
+.img3{
+    position: relative;
+}
+.img3:hover .vertical-line5{
+    margin-top: -101%;
+    margin-left: 87%;
+    width: 2px; 
+    height: 299px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+}
+.vertical-line5{
+    display: none;
+}
+   .img3:hover .vertical-line6{
+    margin-top: -86%;
+    margin-left: 13%;
+    width: 2px; 
+    height: 300px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px  black;
+    display: block;
+}
+.vertical-line6{
+    display: none;
+}
+  .img3:hover .horizontal-line5{
+    margin-top: -87%;
+    margin-left: 14%;
+    width: 258px; 
+    height: 2px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+  }
+.horizontal-line5{
+    display: none;
+}
+   .img3:hover  .horizontal-line6{
+    margin-top: 87%;
+    margin-left: 14%;
+    width: 258px; 
+    height: 2px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+  }   
+  .horizontal-line6{
+    display: none;
+  }   
+.img3:hover{
+    transform: scale(1.1);
+    
+}
+.img3:hover .s{
+    position: absolute;
+    bottom: -50px;
+    margin-left: 14%;
+    display: block;
+    background-color: wheat;
+    width: 260px;
+    height: -12%;
+}
+.s{
+    display: none;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+}
+.item4 img{
+    
+    height: 300px;
+    width: 250px;
+    padding: 40px;
+    
+    
+}
+.item5 img{
+    
+    height: 300px;
+    width: 250px;
+    padding: 50px;
+}  
+.item4,.item5{
+    flex-basis: 200px;
+    text-align: center;
+    margin: 15px;
+} 
+.img4{
+    position: relative;
+}
+.img4:hover .vertical-line1{
+    margin-top: -105%;
+    margin-left: 89%;
+    width: 2px; 
+    height: 299px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+}
+.vertical-line1{
+    display: none;
+}
+    .img4:hover .vertical-line2{
+    margin-top: -90%;
+    margin-left: 10%;
+    width: 2px; 
+    height: 300px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px  black;
+    display: block;
+}
+.vertical-line2{
+    display: none;
+}
+   .img4:hover .horizontal-line1{
+    margin-top: -93%;
+    margin-left: 10%;
+    width: 260px; 
+    height: 2px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+  }
+.horizontal-line1{
+    display: none;
+}
+    .img4:hover  .horizontal-line2{
+    margin-top: 93%;
+    margin-left: 10%;
+    width: 260px; 
+    height: 2px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+  } 
+  .horizontal-line2{
+    display: none;
+}  
+.img4:hover{
+    transform: scale(1.1);
+    
+}
+.img4:hover .t{
+    position: absolute;
+    bottom: -50px;
+    margin-left: 10%;
+    display: block;
+    background-color: wheat;
+    width: 260px;
+    height: -12%;
+}
+.t{
+    display:none;
+}
+.img5{
+    position: relative;   
+}
+.img5:hover .vertical-line3{
+    margin-top: -101%;
+    margin-left: 87%;
+    width: 2px; 
+    height: 299px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+}
+.vertical-line3{
+    display: none;}
+
+    .img5:hover .vertical-line4{
+    margin-top: -87%;
+    margin-left: 12%;
+    width: 2px; 
+    height: 299px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px  black;
+    display: block;
+}
+.vertical-line4{
+    display: none;
+}
+   .img5:hover .horizontal-line3{
+    margin-top: -85%;
+    margin-left: 12%;
+    width: 260px; 
+    height: 2px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+  }
+.horizontal-line3{
+    display: none;
+}
+    .img5:hover  .horizontal-line4{
+    margin-top: 86%;
+    margin-left: 12%;
+    width: 260px; 
+    height: 2px; 
+    background-color: black; 
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+  } 
+  .horizontal-line4{
+    display: none;
+} 
+.img5:hover{
+    transform: scale(1.1);
+    
+}
+.img5:hover .u{
+    position: absolute;
+    bottom: -50px;
+    margin-left: 13%;
+    display: block;
+    background-color: wheat;
+    width: 265px;
+    height: -12%;
+}
+.u{
+    display: none;
+} */

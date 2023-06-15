@@ -1,0 +1,136 @@
+.hu,.hi{
+    text-decoration: none;
+}
+
+.log{
+    display: flex;
+    width: 15%;
+    float: right;
+}
+.line{
+    height: 35px;
+    width: 2px;
+    color: black;
+    background-color: black;
+    margin-top:-50px ;
+    margin-left: 5%;
+}
+.body{
+    /* background: url("https://cdn.shopify.com/s/files/1/0575/0987/1774/files/3_a30a55b4-0340-4c38-8e2a-8c7be4f409ba.png?v=1653967370");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:700px;
+    width:100%; */
+    background-color:  #F5F5DC;
+}
+.main{
+    background: url("https://images.unsplash.com/opengraph/1x1.png?auto=format&fit=crop&w=1200&h=630&q=60&mark-w=64&mark-align=top%2Cleft&mark-pad=50&blend-w=1&mark=https%3A%2F%2Fimages.unsplash.com%2Fopengraph%2Flogo.png&blend=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1591085686350-798c0f9faa7f%3Fcrop%3Dfaces%252Cedges%26cs%3Dtinysrgb%26fit%3Dcrop%26fm%3Djpg%26ixid%3DM3wxMjA3fDB8MXxzZWFyY2h8NHx8c2hvcHBpbmd8ZW58MHx8fHwxNjg2NjcxMzAwfDA%26ixlib%3Drb-4.0.3%26q%3D60%26w%3D1200%26auto%3Dformat%26h%3D630%26mark-w%3D750%26mark-align%3Dmiddle%252Ccenter%26blend-mode%3Dnormal%26blend-alpha%3D10%26mark%3Dhttps%253A%252F%252Fimages.unsplash.com%252Fopengraph%252Fsearch-input.png%253Fauto%253Dformat%2526fit%253Dcrop%2526w%253D750%2526h%253D84%2526q%253D60%2526txt-color%253D000000%2526txt-size%253D40%2526txt-align%253Dmiddle%25252Cleft%2526txt-pad%253D80%2526txt-width%253D660%2526txt-clip%253Dellipsis%2526txt%253Dshopping%26blend%3D000000");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:700px;
+    width:100%;
+    margin-top: 5%;
+}
+.main:hover{
+    background: url(https://housing.com/news/wp-content/uploads/2023/02/R-City-Mall-in-Mumbai-Shopping-dining-and-entertainment-options-f.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:700px;
+    width:100%;
+    animation: pic 20s infinite;
+} 
+@keyframes pic{
+    0% {
+    background: url(https://housing.com/news/wp-content/uploads/2023/02/R-City-Mall-in-Mumbai-Shopping-dining-and-entertainment-options-f.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:700px;
+    width:100%;
+}
+25%{
+    background: url(https://www.oneandco.com/wp-content/uploads/2019/09/dubaionlineshoppingsites.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:700px;
+    width:100%;
+}
+50%{
+    background: url(https://warsawtour.pl/wp-content/uploads/2018/07/Z%C5%82ote-Tarasy_fot.-m.st_.-Warszawa.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:700px;
+    width:100%;
+}
+75%{
+    background: url(https://www.visitbritain.com/sites/cms/files/styles/open_graph_image/public/lookatmedam/606431l5.jpg?h=56d0ca2e&itok=iRbIDC72);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:700px;
+    width:100%;
+} 
+100%{
+    background: url(https://ocean.go2andaman.com/wp-content/uploads/2021/07/seven-heaven-havelock-boutique-shop.jpg?compress=true&quality=90&w=480&dpr=2.6);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:700px;
+    width:100%;
+}
+}
+.mai{
+    background: url(https://i.pinimg.com/736x/57/84/86/5784864a479ab401258845ec3b479efa.jpg);
+     
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:570px;
+    width:1000px;
+    
+    
+}
+.minu{
+    height:400px;
+    width:400px;
+   border: 1px solid black;
+   background-color: rgb(204, 153, 102);
+   opacity:0.6;
+   margin-left:50%;
+   margin-top:20%;
+   border-radius:25px 25px 25px 25px;
+   
+} 
+.type{
+    width: 150%;
+}
+.sub{
+    width: 60%;
+    margin-left: 50%;
+}
+.bi{
+    position: absolute;
+    margin-top:-20%;
+    margin-left: 38%
+}
+.ni{
+    border: 1px solid black;
+}
+.hee{
+    background: url(https://joburg.co.za/wp-content/uploads/2020/08/641.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:500px;
+    width:1000px;
+}
+.hoo{
+    height:500px;
+    width:400px;
+   border: 1px solid black;
+   background-color: rgb(65, 28, 28);
+   opacity:0.6;
+   margin-left:100px;
+   margin-top:60px;
+   border-radius:25px 25px 25px 25px;
+}
+.gi{
+    position: absolute;
+    margin-top:-470px;
+    margin-left: 150px;
+}
